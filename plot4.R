@@ -28,7 +28,7 @@ par(mfrow = c(2,2))
 plot(ed$DateTime, ed$Global_active_power, 
      type = "l",
      xlab = "",
-     ylab = "Global Active Power (kilowatts)")
+     ylab = "Global Active Power")
 ## Top Right
 plot(ed$DateTime, ed$Voltage, 
      type = "l",
